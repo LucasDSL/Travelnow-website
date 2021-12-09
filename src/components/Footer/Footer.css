@@ -1,0 +1,85 @@
+.Footer-all{
+    background-color: rgba(174, 203, 244, 0.13);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    padding: 3rem 0rem;
+}
+.Company-info{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.Company-info > h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 3.2rem;
+    align-self: center;
+    font-weight: 700;
+    color: #FBB667;
+}
+.Company-info > h1 > span {
+    color: #0F214F;
+}
+.Company-info > p{
+    display: none;
+}
+.footer-links{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.Links{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100px;
+}
+.Links > h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.Links > p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.Links a{
+    color: black;
+}
+.footer-date{
+    display: flex;
+    justify-content: center;
+    background-color: #FBB667;
+    padding: 2rem;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+    width: 100%;
+}
+@media (min-width: 768px){   
+    .footer-info{
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .Company-info > h1{
+       align-self: flex-start;
+    }
+    .Company-info > p{
+        display: flex;
+    }
+    .Links a:hover{
+        font-weight: 700;
+    }
+}

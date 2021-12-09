@@ -1,0 +1,69 @@
+.Discover{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 12rem;
+    gap: 2rem;
+    background-color: white;
+}
+.Discover-Info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    max-width: 100%;
+}
+.Discover-Info > div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.21);
+    border-radius: 10rem;
+    padding: 1.1rem 2.5rem;
+}
+.Discover-Info > div > input{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    color: #FBB667;
+    border: none; 
+    width: calc(100% - 4rem);
+    background: #FFFFFF;
+}
+input::placeholder{
+    color:#FBB667;
+}
+.Discover-Info > div > button{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: #FBB667;
+    font-size: 1.4rem;
+    border-radius: 10rem;
+    padding: .3rem 1rem; 
+    border: none;
+    cursor: pointer;
+}
+.Discover-img{
+    max-width: 80vw;
+}
+@media (min-width: 768px){
+    .Discover{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 12rem 0rem 2rem 0rem;
+    }
+    .Discover-Info > h2{
+        font-size: 7.6rem;
+    }
+    .Discover-Info > p{
+        font-size: 1.8rem;
+    }
+    .Discover-Info > div > button:hover{
+        animation: bounce 1s;
+    }
+    .Discover-img{
+        max-width: 45vw;
+    } 
+}
