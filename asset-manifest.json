@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/travelnow-website/static/css/main.198efc46.chunk.css",
+    "main.js": "/travelnow-website/static/js/main.202039cb.chunk.js",
+    "main.js.map": "/travelnow-website/static/js/main.202039cb.chunk.js.map",
+    "runtime-main.js": "/travelnow-website/static/js/runtime-main.40426d1a.js",
+    "runtime-main.js.map": "/travelnow-website/static/js/runtime-main.40426d1a.js.map",
+    "static/js/2.66ef24cf.chunk.js": "/travelnow-website/static/js/2.66ef24cf.chunk.js",
+    "static/js/2.66ef24cf.chunk.js.map": "/travelnow-website/static/js/2.66ef24cf.chunk.js.map",
+    "index.html": "/travelnow-website/index.html",
+    "static/css/main.198efc46.chunk.css.map": "/travelnow-website/static/css/main.198efc46.chunk.css.map",
+    "static/js/2.66ef24cf.chunk.js.LICENSE.txt": "/travelnow-website/static/js/2.66ef24cf.chunk.js.LICENSE.txt",
+    "static/media/Camping.9742ae7b.png": "/travelnow-website/static/media/Camping.9742ae7b.png",
+    "static/media/Desert.0980cb4a.png": "/travelnow-website/static/media/Desert.0980cb4a.png",
+    "static/media/Discover.e796955e.png": "/travelnow-website/static/media/Discover.e796955e.png",
+    "static/media/Mountains.53ec3f70.png": "/travelnow-website/static/media/Mountains.53ec3f70.png",
+    "static/media/car_service.59afd97e.svg": "/travelnow-website/static/media/car_service.59afd97e.svg",
+    "static/media/destination.e74c5473.svg": "/travelnow-website/static/media/destination.e74c5473.svg",
+    "static/media/plane_service.7daa21b2.svg": "/travelnow-website/static/media/plane_service.7daa21b2.svg",
+    "static/media/ticket_service.5f9d85ed.svg": "/travelnow-website/static/media/ticket_service.5f9d85ed.svg",
+    "static/media/van-to-camp.4622192a.svg": "/travelnow-website/static/media/van-to-camp.4622192a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40426d1a.js",
+    "static/js/2.66ef24cf.chunk.js",
+    "static/css/main.198efc46.chunk.css",
+    "static/js/main.202039cb.chunk.js"
+  ]
+}
